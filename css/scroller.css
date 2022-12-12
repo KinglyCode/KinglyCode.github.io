@@ -1,0 +1,24 @@
+.container-scroll {
+    inline-size: min(100% - 4rem, 70rem);
+    margin-inline: auto;
+}
+
+.media-scroller {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+#logo {
+    height: 10vw;
+    width: 10vw;
+}
+
+#mongodb {
+    height: 8vw;
+    width: 15vw;
+    margin-right: 50px;
+}
