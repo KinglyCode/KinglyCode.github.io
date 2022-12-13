@@ -1,4 +1,4 @@
-.link_button{
+.link_button, .resume-button{
     background-color: #fff;
     border: 0 solid #e2e8f0;
     border-radius: 1.5rem;
@@ -25,14 +25,33 @@
     background-color: #1e293b;
     color: #fff;
   }
+
+  .resume-button:hover {
+    background-color: #1e293b;
+    color: #fff;
+  }
   
   @media (min-width: 768px) {
-    .link_button {
+    .link_button, .resume-button {
       font-size: 1.125rem;
       padding: 1rem 2rem;
     }
   }
 
-  .github, .demo{
+  .github, .demo, .resume-link{
     text-decoration: none;
+  }
+
+  .download {
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .resume-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30em;
   }
